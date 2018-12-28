@@ -1,0 +1,17 @@
+{
+  "name": "@webdeveloperpr/prebid",
+  "version": "1.0.0",
+  "description": "Custom prebid implementation",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "rm ./dist/prebid.js",
+    "build": "./prebid.sh"
+  },
+  "author": "Luis Betancourt",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "prebid.js": "^1.36.0"
+  }
+}
