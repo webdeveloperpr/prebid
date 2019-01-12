@@ -5,8 +5,9 @@
   "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prebuild": "rm ./dist/prebid.js",
-    "build": "./prebid.sh"
+    "prebuild": "rm -rf ./dist",
+    "build": "./prebid.sh",
+    "upgrade": "npm upgrade prebid && npm run build"
   },
   "author": "Luis Betancourt",
   "license": "ISC",
